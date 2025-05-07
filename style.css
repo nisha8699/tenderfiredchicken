@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Margarine&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+*
+{
+    margine:0px;
+    border:0px;
+    box-sizing: border-box;
+}
+:root
+{
+      /*--------font----- */
+    --ff-primary:"Roboto",sans-serif;
+    --ff-secondary:"inter",sans-serif;
+    --ff-design:"statisfy", cursive;
+    --ff-brand:"margarine",sans-serif ;
+   /*-----color---------*/
+    --clr-white: #ffff;
+    --clr-dark:#333;
+    --clr-grey-1:#102a42;
+    --clr-grey-2:#617d98;
+    --clr-grey-3:#f1f5f8;
+     --clr-primary:#f53b57;
+     --clr-primary-light:#f04660;
+     --clr-secondary:#e9b949;
+     --transition:all 0.3s linear;
+
+
+    }
+    /*--gobal css--*/
+a{
+    text-decoration: none;
+}
+img{
+width:100px;
+display:block;
+}
+h1,h2,h3,h4,h5{
+    text-transform: capitalize;
+    line-weight:1.25;
+    margin-border:0.75rem;
+    letter-spacing: 0.5px;
+}
+ h1
+{
+font-size: 3rem;
+}
+h2
+{
+    font-size: 2rem;
+}
+h3
+{
+    font-size: 1.5rem;
+}
+h4
+{
+    font-size: 0.875rem;
+}
+h5
+{
+    font-size: 1.75rem;
+}
+     /*-------nav---------*/
+.nav-btn svg{
+    fill:var(--clr-primary);
+    position: fixed;
+    top: 5%;
+    left:5%;
+    cursor:pointer;
+}
+.navbar
+{
+    position:fixed;
+    background-color:rgb(0,0,0.9);
+    top:0;
+    left:0;
+    height:100px;
+    width:100px;
+}
+.navbar h3
+{
+padding: 1rem;
+font-size: 1.5rem;
+text-align: center;
+text-transform: uppercase;
+font-weight: 700;
+color:transparent;
+background-image:linear-gradient(180deg,var(--clr-primary)25%,var(-clr--secondary));
+background-clip: text;
+margin-bottom: -rem;
+}
+.navbar-header img
+{
+    margin:0,auto;
+    width:100px;
+}
+.nav-close
+{
+    position:absolute;
+    top:0;
+    left:5px;
+}
+.nav-close svg
+{
+    cursor:pointer;
+    fill: var(--clr-dark);
+}
+.nav-close:hover svg
+{
+   fill: var(--clr-white); 
+}
+.nav-items
+{
+life-style-type:none;
+}
+.nav-link
+{
+display: block;
+color: var(--clr-white);
+text-transform: uppercase;
+font-size: 1.2rem;
+padding: 0.75rem 1rem;
+letter-spacing: 0.2px;
+transition: var(--transition);
+}
