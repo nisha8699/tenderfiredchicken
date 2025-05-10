@@ -235,7 +235,7 @@ transition: var(--transition);
 /*------banner-----*/
 .header {
   min-height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/ banner.jpg") center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/img2\ banner.jpg") center/cover no-repeat fixed;
   position: relative;
 }
 .banner
@@ -253,7 +253,7 @@ transition: var(--transition);
     font-family: var(--ff design);
     color:transparent;
     background-image:linear-gradient(180deg,var(--ff-primary),var(--clr-secondary)) ;
-   
+    background-clip:text;
 }
 .banner h1
 {
